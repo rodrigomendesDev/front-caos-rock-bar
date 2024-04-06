@@ -1,0 +1,72 @@
+.modal {
+    width: 480px;
+    min-height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: normal;
+
+    position: relative;
+}
+
+.container-inputs {
+    margin-bottom: 30px;
+
+    width: 100%;
+}
+
+.container-inputs label {
+    color: black;
+    width: 100%;
+}
+
+.container-inputs input {
+    width: 75%;
+    height: 35px;
+
+    border-radius: 8px;
+
+    padding: 6px;
+}
+
+.modal span {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+}
+
+.modal form {
+    width: 100%;
+
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal button {
+    width: 250px;
+    margin-top: 42px;
+}
+
+.close-button {
+    position: absolute;
+    top: 48px;
+    right: 48px;
+    width: 24px;
+    height: 24px;
+
+    cursor: pointer;
+}
